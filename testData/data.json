@@ -1,0 +1,279 @@
+{
+  "username": "qa-1",
+  "password": "-wJgw8fLDX",
+  "qa1username1": "qa-1",
+  "qa1password": "-wJgw8fLDX",
+  "username2": "qa-2",
+  "password2": "gSCLh1axqh",
+  "oldusername": "garrett",
+  "oldpassword": "LFQIISIc",
+  "invalidusername": "InvalidUsername",
+  "invalidpassword": "InvalidPassword",
+  "name": "Mariusz",
+  "prizeName": "Automated Prize",
+
+  "first_names": [
+    "Mariusz",
+    "Marek",
+    "Robert",
+    "Marcin",
+    "Przemek",
+    "Adam",
+    "Grzegorz",
+    "Adrian",
+    "Piotr",
+    "Paweł"
+  ],
+  "last_names": [
+    "Podgorski",
+    "Pawłowski",
+    "Kowalski",
+    "Marcinkiewicz",
+    "Macierewicz",
+    "Tyszka",
+    "Duda",
+    "Kornhauzer",
+    "Goldfinger",
+    "Wiśniewski",
+    "Lewandowski"
+  ],
+  "department": [
+    "Production",
+    "Sale",
+    "supply",
+    "warehouse",
+    "management",
+    "bookkeeping",
+    "HR"
+  ],
+  "videoFilePath": [
+    "testData/videos/Video.mp4",
+    "testData/videos/Demo_Video.mp4",
+    "testData/videos/3.mp4",
+    "testData/videos/4.mp4",
+    "testData/videos/5.mp4",
+    "testData/videos/6.mp4",
+    "testData/videos/7.mp4",
+    "testData/videos/8.mp4",
+    "testData/videos/9.mp4",
+    "testData/videos/10.mp4"
+  ],
+
+  "imageNameForDesign":[   
+    "D_01_Answer_Shape_Circle_Mainboard",
+    "D_02_Answer_Shape_Rectangle_Mainboard",
+    "D_03_Answer_Shadow_Mainboard",
+    "D_04_Stage_Fade_Transition_GamePaly",
+    "D_05_XPression_mode_GamePaly",
+    "D_06_QR_Code_Width_Hight_Mainboard",
+    "07_D_Top_Alignment_Mainboard",
+    "08_D_Bottom_Alignment_Mainboard",
+    "09_D_Margin_Mainboard",
+    "10_D_Mobile_Background_Gameplay",
+    "11_D_Question_Background_Gameplay",
+    "12_D_Question_Background_Mainboard",
+    "13_D_Answer_Background_Gameplay",
+    "14_D_Answer_Background_Mainbaord",
+    "15_D_Button_Fill_Color_Gameplay",
+    "16_D_Tile_Background_Color_Mainboard",
+    "17_D_Tile_Background_Color_Gameplay",
+    "18_D_Leaderboard_Background_Gameplay",
+    "19_D_Leaderboard_Background_Mainboard",
+    "20_D_Question_frame_Color_Gameplay",
+    "21_D_Question_frame_Color_Mainboard",
+    "22_D_Answer_frame_Color_Gameplay",
+    "23_D_Answer_frame_Color_Mainboard",
+    "24_D_Tile_Frame_Color_Gameplay",
+    "25_D_Tile_Frame_Color_Mainboard",
+    "26_D_Selected_Answeer_Color_Gameplay",
+    "27_D_Correct_Answeer_Color_Gameplay",
+    "28_D_Correct_Answeer_Color_Mainbaord",
+    "29_D_Wrong_Answeer_Color_Gameplay",
+    "30_D_Wrong_Answeer_Color_Mainboard",
+    "31_D_General_Btn_Color_Gameplay",
+    "32_D_General_Btn_Color_Mainboard",
+    "33_D_Question_Text_Color_Gameplay",
+    "34_D_Question_Text_Color_Mainboard",
+    "35_D_Answer_Text_Color_Gameplay",
+    "36_D_Answer_Text_Color_Mainboard",
+    "37_D_Leaderboard_Text_Color_Gameplay",
+    "38_D_Leaderboard_Text_Color_Mainboard",
+    "39_D_Leaderboard_Accent_Color_Gameplay",
+    "40_D_Leaderboard_Accent_Color_Mainboard",
+    "41_D_Leaderboard_Top_Rank_Color_Gameplay",
+    "42_D_Leaderboard_Top_Rank_Color_Mainboard"
+    
+
+
+  ],
+  "countdownTime": [
+    "0",
+    "10",
+    "20",
+    "30",
+    "40",
+    "50",
+    "60",
+    "70",
+    "80",
+    "90",
+    "100"
+  ],
+  "mainboardMargin": [
+    "0",
+    "10",
+    "20",
+    "30",
+    "40",
+    "50",
+    "60",
+    "70",
+    "80",
+    "90",
+    "100"
+  ],
+  "getQuestions": [
+    "testData/json/Short-Questions.json",
+    "testData/questions/Questions_2.csv",
+    "testData/questions/Questions_3.csv",
+    "testData/questions/Questions_4.csv",
+    "testData/questions/Questions_5.csv",
+    "testData/questions/Questions_6.csv",
+    "testData/questions/Questions_7.csv",
+    "testData/questions/Questions_8.csv",
+    "testData/questions/Questions_9.csv",
+    "testData/questions/Questions_10.csv"
+  ],
+  "filePath":[
+    "testData/logos/logo_lowSize.png",
+    "testData/logos/PotraitBanner.png",
+    "testData/logos/Blue_frame.png",
+    "testData/logos/gameTeamLogo.png",
+    "testData/logos/transparent_background_image.png",
+    "testData/logos/CountDownStageBanner.png",
+    "C:\\Users\\mariusz\\Desktop\\test4.txt",
+    "C:\\Users\\mariusz\\Desktop\\test5.txt",
+    "C:\\Users\\mariusz\\Desktop\\test6.txt",
+    "C:\\Users\\mariusz\\Desktop\\test7.txt",
+    "C:\\Users\\mariusz\\Desktop\\test8.txt",
+    "C:\\Users\\mariusz\\Desktop\\test9.txt",
+    "C:\\Users\\mariusz\\Desktop\\test10.txt"
+  ],  
+  "instancesNameValidation": [
+    "1",
+    "   ",
+    "Test3",
+    "Test4",
+    "Test5",
+    "Test6",
+    "Test7",
+    "Test8",
+    "Test9",
+    "Test10"
+  ],
+  "backgroundColor": [
+    "45",
+    "168",
+    "217",
+    "100",
+    "2da8d9ff"    
+  ],
+  "getExpectedColors": [
+    "rgb(67, 167, 222)",
+    "168"
+        
+  ],
+
+  "fontsColorCode": [
+    "241",
+    "196",
+    "15",
+    "100",
+    "f1c40fff"    
+  ],
+  "fontsFilePath": [
+    "testData/fonts/Midnight.ttf",
+    "testData/fonts/Roboto-Light.ttf",
+    "testData/fonts/Roboto-Medium.ttf",
+    "testData/fonts/Roboto-Regular.ttf",
+    "testData/fonts/Roboto-Thin.ttf",
+    "testData/fonts/Roboto-Black.ttf",
+    "testData/fonts/Roboto-Italic.ttf",
+    "testData/fonts/Roboto-BoldItalic.ttf",
+    "testData/fonts/Roboto-LightItalic.ttf",
+    "testData/fonts/Roboto-MediumItalic.ttf",
+    "testData/fonts/Roboto-RegularItalic.ttf",
+    "testData/fonts/Roboto-ThinItalic.ttf",
+    "testData/fonts/Roboto-BlackItalic.ttf"
+  ],
+
+  "reflactedFontsColorCode": [
+    "rgb(241, 196, 15)"
+      
+  ],
+  "reflactedCountdownColorCode": [
+    "rgb(241, 196, 15)"
+      
+  ],
+  "imageNameForControl": [
+    "M001_countdown_time"
+   
+
+
+
+
+  ],  
+
+  "redirectUrl": [
+    "https://saucedemo.com",
+    "https://youtube.com/embed/WFmE-gJH4uU?si=EcE0VzYZlTzFhWhr",
+    "https://www.youtube.com",
+    "https://www.facebook.com",
+    "https://www.instagram.com",
+    "https://www.twitter.com",
+    "https://www.linkedin.com",
+    "https://www.pinterest.com",
+    "https://www.tumblr.com",
+    "https://www.reddit.com",
+    "https://www.snapchat.com"
+  ],
+
+  "instancesNameFieldErrorMassage": [
+    "The name length must be at least 3 characters long",
+    "Only spaces are not allowed"
+  ],
+  "description": [
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+  ], 
+  "getName": 
+    "Demo"   
+  ,
+  "getRoundName": 
+  "Default Round"   
+,
+  "getDescription": [
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  ],
+  "time":[
+    "00",
+    "5000"
+  ],
+
+
+  "questions": [
+      "What is the primary goal of the Production department?",
+      "What tools are commonly used in Production?",
+      "What is the main responsibility of the Sales department?",
+      "What skills are important in Sales?",
+      "What does the Supply department manage?"
+  ],
+  
+  "answers": [
+    "The main goal is to manufacture products efficiently, ensuring quality and meeting production targets.",
+    "Production teams use equipment like assembly lines, quality control systems, and manufacturing software.",
+    "The Sales department is responsible for generating revenue by selling products or services to customers.",
+    "Key skills include communication, negotiation, customer relationship management, and product knowledge.",
+    "The Supply department manages the procurement, logistics, and delivery of materials and goods."
+  ]
+  
+}
