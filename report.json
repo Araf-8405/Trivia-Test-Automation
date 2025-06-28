@@ -1,0 +1,152 @@
+{
+  "config": {
+    "configFile": "F:\\Automation\\apitest-playwright\\Trivia-Test-Automation\\playwright.config.ts",
+    "rootDir": "F:/Automation/apitest-playwright/Trivia-Test-Automation",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "report.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "F:/Automation/apitest-playwright/Trivia-Test-Automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "",
+        "name": "",
+        "testDir": "F:/Automation/apitest-playwright/Trivia-Test-Automation",
+        "testIgnore": [],
+        "testMatch": [
+          "trivia.test.ts"
+        ],
+        "timeout": 3000000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.48.2",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\trivia.test.ts",
+      "file": "tests/trivia.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Trivia-2 | Page URL Verification | Validate Trivia URL",
+          "ok": false,
+          "tags": [
+            "Regression,",
+            "Smoke"
+          ],
+          "tests": [
+            {
+              "timeout": 3000000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "failed",
+                  "duration": 5905,
+                  "error": {
+                    "message": "TypeError: Cannot read properties of undefined (reading 'BASE_URL')",
+                    "stack": "TypeError: Cannot read properties of undefined (reading 'BASE_URL')\n    at Function.BASE_URL (F:\\Automation\\apitest-playwright\\Trivia-Test-Automation\\utils\\env\\env.ts:23:23)\n    at LoginPage (F:\\Automation\\apitest-playwright\\Trivia-Test-Automation\\pages\\loginPage\\Login.page.ts:13:27)\n    at Object.loginPage (F:\\Automation\\apitest-playwright\\Trivia-Test-Automation\\fixtures\\basePages.ts:24:19)",
+                    "location": {
+                      "file": "F:\\Automation\\apitest-playwright\\Trivia-Test-Automation\\utils\\env\\env.ts",
+                      "column": 23,
+                      "line": 23
+                    },
+                    "snippet": "\u001b[90m   at \u001b[39mutils\\env\\env.ts:23\n\n\u001b[0m \u001b[90m 21 |\u001b[39m\n \u001b[90m 22 |\u001b[39m   \u001b[36mpublic\u001b[39m \u001b[36mstatic\u001b[39m \u001b[36mget\u001b[39m \u001b[33mBASE_URL\u001b[39m()\u001b[33m:\u001b[39m string {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 23 |\u001b[39m     \u001b[36mreturn\u001b[39m \u001b[33mENV\u001b[39m\u001b[33m.\u001b[39mconfig\u001b[33m.\u001b[39m\u001b[33mBASE_URL\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 24 |\u001b[39m   }\n \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36mpublic\u001b[39m \u001b[36mstatic\u001b[39m \u001b[36mget\u001b[39m \u001b[33mROUTE\u001b[39m()\u001b[33m:\u001b[39m string {\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "F:\\Automation\\apitest-playwright\\Trivia-Test-Automation\\utils\\env\\env.ts",
+                        "column": 23,
+                        "line": 23
+                      },
+                      "message": "TypeError: Cannot read properties of undefined (reading 'BASE_URL')\n\n\u001b[90m   at \u001b[39mutils\\env\\env.ts:23\n\n\u001b[0m \u001b[90m 21 |\u001b[39m\n \u001b[90m 22 |\u001b[39m   \u001b[36mpublic\u001b[39m \u001b[36mstatic\u001b[39m \u001b[36mget\u001b[39m \u001b[33mBASE_URL\u001b[39m()\u001b[33m:\u001b[39m string {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 23 |\u001b[39m     \u001b[36mreturn\u001b[39m \u001b[33mENV\u001b[39m\u001b[33m.\u001b[39mconfig\u001b[33m.\u001b[39m\u001b[33mBASE_URL\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 24 |\u001b[39m   }\n \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36mpublic\u001b[39m \u001b[36mstatic\u001b[39m \u001b[36mget\u001b[39m \u001b[33mROUTE\u001b[39m()\u001b[33m:\u001b[39m string {\u001b[0m\n\n\u001b[2m    at Function.BASE_URL (F:\\Automation\\apitest-playwright\\Trivia-Test-Automation\\utils\\env\\env.ts:23:23)\u001b[22m\n\u001b[2m    at LoginPage (F:\\Automation\\apitest-playwright\\Trivia-Test-Automation\\pages\\loginPage\\Login.page.ts:13:27)\u001b[22m\n\u001b[2m    at Object.loginPage (F:\\Automation\\apitest-playwright\\Trivia-Test-Automation\\fixtures\\basePages.ts:24:19)\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-11-26T12:25:21.825Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "F:\\Automation\\apitest-playwright\\Trivia-Test-Automation\\test-results\\tests-trivia-Trivia-2-Page-a5b06-ication-Validate-Trivia-URL\\test-failed-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "F:\\Automation\\apitest-playwright\\Trivia-Test-Automation\\test-results\\tests-trivia-Trivia-2-Page-a5b06-ication-Validate-Trivia-URL\\test-failed-2.png"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "F:\\Automation\\apitest-playwright\\Trivia-Test-Automation\\test-results\\tests-trivia-Trivia-2-Page-a5b06-ication-Validate-Trivia-URL\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "F:\\Automation\\apitest-playwright\\Trivia-Test-Automation\\utils\\env\\env.ts",
+                    "column": 23,
+                    "line": 23
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "9b6d2c379a348d461fdc-04dc8b04efa98bc9489a",
+          "file": "tests/trivia.test.ts",
+          "line": 375,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-11-26T12:25:16.708Z",
+    "duration": 11831.229999999981,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}
